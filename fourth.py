@@ -104,6 +104,7 @@ print(noSpace(phrase)) #REVIEW
 
 sent = input("Enter your evenly sentence: ")
 
+print("alooooo")
 
 
 
