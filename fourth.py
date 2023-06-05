@@ -147,6 +147,11 @@ l 3
 '''
 
 char = input("Enter to check frequency: ")
+print("hola3"
+      "3"
+      "3"
+      "3"
+      "3")
 
 
 
