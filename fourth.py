@@ -103,8 +103,52 @@ print(noSpace(phrase)) #REVIEW
 #5)Write python program to print even length words from inputed sentence.
 
 sent = input("Enter your evenly sentence: ")
+words = sent.split()
+even_words = []
 
-print("alooooo")
+for wrd in words:
+    if len(wrd)%2 == 0:
+        even_words.append(wrd)
+
+print(even_words)
+
+
+
+
+
+#print(words)
+
+
+'''
+6)Write a program to count how many letters and numbers are in given word
+'''
+
+thing = input("Input to count numbers and letters: ")
+letters = 0
+nums = 0
+
+for i in thing:
+    if i == " ":
+        pass
+    elif i.isdigit():
+        nums += 1
+    else:
+        letters += 1
+
+print("There are " + str(letters) + " letters and " + str(nums) + "nums here")
+
+'''
+7)Write a Python program to count the number of characters (character frequency) in a string.
+example:"hello world"
+output:
+h 1
+e 1
+l 3
+'''
+
+char = input("Enter to check frequency: ")
+
+
 
 
 
